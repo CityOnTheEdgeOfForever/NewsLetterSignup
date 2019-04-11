@@ -29,9 +29,6 @@ app.post("/", function(req, res) {
     lastName: req.body.lastName,
     email: req.body.email
   };
-  var stringListID = "29ff7a75d3";
-  var stringAPIKEY = "7ab7139f2a1bd0c8f2cf4983f6947692-us20";
-
   var data = {
     members: [{
       email_address: info.email,
